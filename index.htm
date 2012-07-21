@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Twitter Bootstrap</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="./css/bootstrap.css" rel="stylesheet">
+<link href="./css/bootstrap-responsive.css" rel="stylesheet">
+<link href="./css/app.css" rel="stylesheet">
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<header class="hero-unit">
+			<h1>Keyboard Layout Swap <small>TH &lt;-&gt; EN</small></h1>
+			<h3>This app changes text keyboard layout. Usage: when someone forgot to change keyboard layout before posted.</h3>
+		</header>
+		<section class="row">
+			<div class="span12">
+				<h2>Paste your text here</h2>
+				<div class="well">
+					<div id="lang" class="btn-group" data-toggle="buttons-radio">
+						<button id="th_en" class="btn btn-primary active">TH -&gt; EN</button>
+						<button id="en_th" class="btn btn-primary">EN -&gt; TH</button>
+					</div>
+					<textarea id="input" placeholder="Paste your text here"></textarea>
+				</div>
+				<h2>Results</h2>
+				<p id="result"></p>
+			</div>
+		</section>
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="./js/bootstrap-button.js"></script>
+	<script src="./js/keyboard.js"></script>
+	<script src="./js/app.js"></script>
+</body>
+</html>
