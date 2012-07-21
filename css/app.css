@@ -1,4 +1,5 @@
 header.hero-unit {
+	position: relative;
 	padding: 30px 40px;
 	-webkit-border-top-right-radius: 0;
 	-webkit-border-top-left-radius: 0;
@@ -8,3 +9,4 @@ header.hero-unit {
 	border-top-left-radius: 0;
 }
 #input { width: 99%; height: 100px; margin-top: 15px; }
+#github { position: absolute; top: 0; right: 0; width: 149px; height: 149px; background: url("https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png") no-repeat left top; text-indent: -9999px; }
